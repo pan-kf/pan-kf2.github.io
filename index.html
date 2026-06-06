@@ -2,12 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PP Scan App Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #222;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 16px;
+            color: #555;
+        }
+        .email {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 12px 24px;
+            background-color: #007aff;
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .email:hover {
+            background-color: #0066cc;
+        }
+    </style>
 </head>
 <body>
-    <h1>PP Scan App Support</h1>
-    <p>Thank you for using this PP Scan App.</p>
-    <p>If you have any questions, suggestions, or need help, please feel free to contact us by email.</p>
-    <p>Email：panwork_ct@foxmail.com</p>
+    <div class="card">
+        <h1>PP Scan App Support</h1>
+        <p>Thank you for using PP Scan App.</p>
+        <p>If you have any questions, suggestions, or need help, please contact us via email.</p>
+        <a href="mailto:panwork_ct@foxmail.com" class="email">Contact Support</a>
+    </div>
 </body>
 </html>
